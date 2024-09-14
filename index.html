@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silent Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="index" type="text/js" href="JS/index.js" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script>
+
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+
+<script> 
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </head>
+  <body>
+
+    <div id="header">
+</div>  
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html" class="navigation">About us</a>
+      <a href="catalogue.html" class="navigation">Catalogue</a>
+      <a href="events.html" class="navigation">Events</a>
+      <a href="service.html" class="navigation">Service</a>
+      <a href="contact us.html" class="navigation">Contact Us</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>  
+
+    <div class="pagebanner container-fluid p-5 bg-primary text-white text-center">
+      <h1 class="banner">Silent Library</h1>
+      <p class="banner">"Welcome to Silent Library, your gateway to knowledge, discovery, and community engagement. Whether you're here to explore our vast collection of books, access digital resources, attend events, or seek research assistance, we are dedicated to supporting your learning journey. Our friendly staff is here to assist you, and we strive to create a welcoming environment for all. Explore, connect, and grow with us—there’s something for everyone at Silent Library."</p>
+      </div>    
+    </div>
+      
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm">
+          <center>
+          <h3 clas="book"><u>Our Service</u></h3>
+          <img src="Image/library service pic.jfif" alt="Simarillion" style="width:290px;height:290px;">        
+          <p class="book">Our library offers a wide range of services designed to support your learning, research, and recreational needs. From borrowing books and accessing digital resources to attending educational programs and utilizing study spaces, our services are tailored to meet the diverse needs of our community.</p>
+          <a href="service.html" class="btn btn-primary">Click here</a>
+          </center>
+        </div>
+        <div class="col-sm">
+          <center>
+          <h3 class="book">Events</h3>
+          <img src="Image/SL-Events.jpg" alt="Simarillion" style="width:290px;height:290px;">          
+          <p class="book">Our library hosts a variety of events throughout the year to engage, educate, and entertain our community. From author talks and book clubs to workshops, storytimes, and cultural celebrations, there’s something for everyone. These events are designed to foster a love of learning, promote literacy, and bring people together. </p>
+          <a href="events.html" class="btn btn-primary">Click here</a>
+          </center>
+        </div>
+        <div class="col-sm">
+          <center>
+          <h3 class="book">Recent Update</h3> 
+          <img src="Image/Library Update.png" alt="Simarillion" style="width:290px;height:290px;">          
+          <p class="book">Stay informed with the latest news and updates from our library. In this section, you’ll find announcements about new services, upcoming events, recent acquisitions, changes in operating hours, and important notices. We regularly update this space to keep you connected with what’s happening at the library.</p>
+          <a href="#" class="btn btn-primary">Click here</a>
+        </center>
+        </div>
+      </div>
+    </div>
+    <hr class="dotted">
+    <div class="container mt-4">
+      <div class="col-sm-12">
+         <h2 class="book"><u>Our recommended Books</u></h2>
+      </div> 
+    </div>  
+      
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <center>
+            <h3 class="book">A Song of Ice and Fire</h3>
+          <img src="Image/a-game-of-thrones-a-song-of-ice-and-fire-book-1.jpg" alt="ASOIAF" style="width:290px;height:435px;">
+          <h4 class="book">G.R.R.Martin</h4>
+          <p>A Song of Ice and Fire is a series of high fantasy novels by the American author George R. R. Martin. He began writing the first volume, A Game of Thrones, in 1991, and published it in 1996. Martin, who originally envisioned the series as a trilogy, has so far released five out of seven planned volumes.</p>
+            <a href="book-detail-ASOIAF.html" class="btn btn-primary">Click here</a>
+        </center>
+        </div>
+        <div class="col-sm-4">
+            <center>
+                <h3 class="book">The Simarillion</h3>
+              <img src="Image/Simarillion.jpg" alt="Simarillion" style="width:290px;height:435px;">
+              <h4 class="book">J.R.R.Tolkein</h4>
+          <p>The Silmarillion is a book consisting of a collection of myths and stories in varying styles by the English writer J. R. R. Tolkien. It was edited, partly written, and published posthumously by his son Christopher Tolkien in 1977, assisted by Guy Gavriel Kay, who became a fantasy author.</p>
+              <a href="book-detail-LOTR copy.html" class="btn btn-primary">Click here</a>
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <center>
+                <h3 class="book">Hobby Farm</h3>
+              <img src="Image/hobbyfarm.jpg" alt="HobbyFarm" style="width:290px;height:435px;">
+              <h4 class="book">Theresa A. Husarik</h4>
+              <p>Do you long for the country life? Get back to nature and feel your toes in the dirt with this friendly guide to a new farming lifestyle Don't know the first thing about how to handle the basics of small-scale farming, from growing healthy crops to raising livestock and managing your property?</p>
+              <a href="book-detail-HobbyFarm.html" class="btn btn-primary">Click here</a>
+            </center>
+        </div>
+      </div>
+    </div>
+    </div>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<hr class="dotted" style="border: 0px;"> 
+ <!-- Site footer -->
+ <footer class="site-footer bg-secondary" style="margin-top: 5px;">
+  <div class="container">
+    <div class="row">
+      <hr class="dotted" style="border: 0px;"> 
+      <div class="col-sm-12 col-md-6">
+        <h6 style="color: white;">About</h6>
+        <p class="text-justify" style="color: white;">At Silent Libraries, we believe that the power of knowledge is best unlocked in the stillness of a peaceful environment. Step into a sanctuary where every page turn is a whisper, and every thought finds its space to breathe.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6 style="color: white;">Categories</h6>
+        <ul class="footer-links">
+          <li style="color: white;"><a href="about.html" style="color: white;">About Us</a></li>
+          <li><a href="contact us.html" style="color: white;">Contact Us</a></li>
+        </ul>
+      </div>
+
+    <div class="col-xs-6 col-md-3">
+      <h6 style="color: white;">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="privacy policy.html" style="color: white;">Privacy Policy</a></li>
+          <li><a href="sitemap.html" style="color: white;">Sitemap</a></li>
+          <li><a href="term and condition.html" style="color: white;">Term & Condition</a></li>
+        </ul>
+    </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text" style="color: white;">Copyright &copy; 2017 All Rights Reserved by 
+    <u>Silent Library</u>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+          <li><a class="youtube" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>   
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>  
+
+</div>
+</div>  
+</body>
+</html>
